@@ -17,3 +17,5 @@ docker run -d \
 ```
 
 ### [***3. Spring Batch 메타 테이블 엿보기***](https://github.com/jojoldu/spring-batch-in-action/blob/master/3_%EB%A9%94%ED%83%80%ED%85%8C%EC%9D%B4%EB%B8%94%EC%97%BF%EB%B3%B4%EA%B8%B0.md)
+
+### [***4. Spring Batch Job Flow***](https://github.com/jojoldu/spring-batch-in-action/blob/master/4_BATCH_JOB_FLOW.md)
