@@ -21,3 +21,12 @@ docker run -d \
 ### [***4. Spring Batch Job Flow***](https://github.com/jojoldu/spring-batch-in-action/blob/master/4_BATCH_JOB_FLOW.md)
 
 ### [***5. Spring Batch Scope & Job Parameter***](https://github.com/jojoldu/spring-batch-in-action/blob/master/5_SCOPE.md)
+
+### [***6. Chunk 지향 처리***](https://github.com/jojoldu/spring-batch-in-action/blob/master/6_CHUNK.md)
+
+`Spring Batch에서의 Chunk란 데이터 덩어리로 작업 할 때 각 커밋 사이에 처리되는 row 수를 얘기합니다.`
+
+![](https://github.com/jojoldu/spring-batch-in-action/blob/master/images/6/chunk-process.png)
+`
+Setting a fairly large page size and using a commit interval that matches the page size should provide better performance.
+`
