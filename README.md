@@ -3,3 +3,15 @@
 ### [***1. 배치란***](https://github.com/jojoldu/spring-batch-in-action/blob/master/1_%EB%B0%B0%EC%B9%98%EB%9E%80.md)
 
 ### [***2. Job생성***](https://github.com/jojoldu/spring-batch-in-action/blob/master/2_Job%EC%83%9D%EC%84%B1.md)
+
+Start MySQL with Docker(add `--platform linux/amd64` for Mac with Apple Chip)
+```
+docker run -d \
+  --name mysql-batch-job-repository \
+  -p 3306:3306 \
+  -e MYSQL_USER=jojoldu \
+  -e MYSQL_PASSWORD=jojoldu1 \
+  -e MYSQL_ROOT_PASSWORD=jojoldu1 \
+  -e MYSQL_DATABASE=spring_batch \
+  mysql
+```
